@@ -5,7 +5,7 @@ Add a meta_compare argument to the Display Posts shortcode.
 You must have the [Display Posts plugin](https://wordpress.org/plugins/display-posts-shortcode/) installed. Docs for the plugin can be found at [https://displayposts.com/](https://displayposts.com/).
 
 ```
-[display-posts meta_key="my_custom_field" meta_compare="" meta_value=""]
+[display-posts meta_key="my_custom_field" meta_compare="!=" meta_value="a value"]
 ```
 
 Possible values for `meta_compare` are the ones available in a `WP_Query`: '=', '!=', '>', '>=', '<', '<=', 'LIKE', 'NOT LIKE', 'IN', 'NOT IN', 'BETWEEN', 'NOT BETWEEN', 'EXISTS', 'NOT EXISTS', 'REGEXP', 'NOT REGEXP', and 'RLIKE'.
